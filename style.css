@@ -9,7 +9,9 @@
   outline: none;
   scroll-behavior: smooth;
   letter-spacing: .4px;
+  background: linear-gradient(grey,30,black);
 }
+
 :root{
   --color-black: #000000;
   --color-white: #ffffff;
@@ -65,6 +67,13 @@ a:hover{
   text-decoration-color: var(--color-dark-variant) !important;
   text-underline-offset:1rem;
   text-decoration: underline;
+}
+.header-left img{
+  border-radius: 30px;
+}
+.hello{
+  position: relative;
+  left: 60px;
 }
 .btn{
   display: inline-block;
